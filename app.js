@@ -12,6 +12,7 @@ function printmsg(){
 function start(){
     id = window.setTimeout(printmsg, 5000);
 }
+// the function stops the timeout
 function stop(){
     window.clearTimeout(id)
 }
